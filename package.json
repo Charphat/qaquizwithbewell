@@ -1,0 +1,24 @@
+{
+  "name": "qaquizwithbewell",
+  "version": "1.0.0",
+  "description": "for a quiz only bewell",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Charphat/qaquizwithbewell.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Charphat/qaquizwithbewell/issues"
+  },
+  "homepage": "https://github.com/Charphat/qaquizwithbewell#readme",
+  "devDependencies": {
+    "cypress": "^14.3.2"
+  }
+}
