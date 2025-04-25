@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/Charphat/qaquizwithbewell#readme",
   "devDependencies": {
-    "cypress": "^14.3.2"
+    "cypress": "^14.3.2",
+    "cypress-real-events": "^1.14.0"
   }
 }
