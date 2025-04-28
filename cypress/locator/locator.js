@@ -8,7 +8,7 @@ export const locators = {
     productCard: {
       name: '.product-card .name',
       price: '.product-card .price',
-      addToCartBtn: '.product-card .add-to-cart',
+      addToCartButton: '.single_add_to_cart_button',
     },
   };
   
