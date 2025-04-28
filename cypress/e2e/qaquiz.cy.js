@@ -17,7 +17,7 @@ Cypress.on('uncaught:exception', (err, runnable) => {
       //Product 1
       cy.get(locators.homePage.cookiesButton).click();
       cy.get(locators.homePage.searchButton).click();
-      cy.get(locators.homePage.searchField).type('เบาะรองหลังเพื่อสุขภาพ สำหรับรถยนต์ | Car Seat Back Cushion');
+      cy.get(locators.homePage.searchField).type('เบาะรองหลังเพื่อสุขภาพ สำหรับรถยนต์ | Car Seat Back Cushion').wait(500);
       cy.get(locators.homePage.searchSubmit).click();
       cy.get('.post-35797').realHover().wait(500);
       cy.get('.post-35797 .btn-add a').should('be.visible').scrollIntoView().click({ force: true });
@@ -34,7 +34,7 @@ Cypress.on('uncaught:exception', (err, runnable) => {
       cy.get(locators.homePage.searchField).type('ผ้าห่มเย็นอัจฉริยะ | Cool Blanket');
       cy.get('#\\%e0\\%b8\\%aa\\%e0\\%b8\\%b5').select('"ฟ้า"').wait(1000);
       cy.get('#\\%e0\\%b8\\%82\\%e0\\%b8\\%99\\%e0\\%b8\\%b2\\%e0\\%b8\\%94').select('"200x230cm."').wait(1000);
-      cy.get('.single_add_to_cart_button').click();
+      cy.get(locators.productCard.addToCartButton).click();
     });
   });
   
